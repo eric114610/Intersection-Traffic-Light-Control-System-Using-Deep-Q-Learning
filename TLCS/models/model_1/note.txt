@@ -1,0 +1,1 @@
+use for default traffic light(50,10)
