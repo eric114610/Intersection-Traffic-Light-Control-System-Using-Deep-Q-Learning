@@ -43,7 +43,3 @@ We make use of the Q-learning equation Q(s,a) = Q(s,a) + gamma * (reward + gamma
 The neural network is fully connected with 12 neurons as input (the state), 4 hidden layers of 400 neurons each, and the output layers with 4 neurons representing the 4 possible actions.
 For training, experience replay is implemented, the experiences are stored at memory.
 For each episode, their will be 100 epochs, for each epoch, a small batch of 400 experiences will be fed to train the neural network.
-
-Referencr:
-https://github.com/AndreaVidali/Deep-QLearning-Agent-for-Traffic-Signal-Control
-https://www.mdpi.com/1424-8220/22/22/8732
